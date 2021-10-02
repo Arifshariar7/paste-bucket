@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 let isConnected = false;
-const uri = "mongodb+srv://Arif:6d4xHrDVMb7BrteV@cluster0.3tw6k.mongodb.net/Arif?retryWrites=true&w=majority";
+const uri = "mongodb+srv://Arif:UDXCW3AvEo5NEJVO@cluster0.3tw6k.mongodb.net/paste-buckets?retryWrites=true&w=majority";
 const localuri="mongodb://localhost/paste-buckets"
 
 export const connect = async () => {
