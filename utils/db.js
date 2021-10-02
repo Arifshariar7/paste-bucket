@@ -6,7 +6,7 @@ const localuri="mongodb://localhost/paste-buckets"
 
 export const connect = async () => {
   if (!isConnected) {
-    await mongoose.connect(localuri, {
+    await mongoose.connect(uri, {
 
       useNewUrlParser: true, 
       
